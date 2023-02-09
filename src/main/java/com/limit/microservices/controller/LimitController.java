@@ -10,6 +10,7 @@ public class LimitController {
 
 	@GetMapping("/limits")
 	public Limits retriveLimits() {
+		System.out.println("hello");
 		return new Limits(1,1000);
 	}
 }
